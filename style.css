@@ -1,16 +1,15 @@
-@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&family=Satisfy&display=swap');
-
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Open+Sans:wght@400;700&family=Permanent+Marker&display=swap');
 /*Fonts & color*/
 
 body {
-  font-family: 'Roboto', sans-serif;
+  font-family: 'Open Sans', sans-serif;
   color: rgb(40,40,40);
-  background-color: #fcfbf7;
+  background-color: #FEF1F8;
 }
 
 h1, h2 {
-  font-family: 'Satisfy', cursive;
-  color: #EC6651;
+  font-family: 'Permanent Marker', cursive;
+  color: #820F0F;
 }
 
 a {
@@ -39,10 +38,11 @@ a {
   width: 120px;
   height: 120px;
   object-fit: cover;
+  object-position: 100% 50%;
 }
 
 .btn-blue {
-  background-color: #235590;
+  background-color: #192240;
   color: rgb(250,250,250);
   transition: background-color 0.3s;
   padding: 16px 32px;
@@ -52,7 +52,7 @@ a {
 }
 
 .btn-blue:hover {
-  background-color: #E8A692;
+  background-color: #FF0B68;
   color: rgb(40,40,40);
 }
 
@@ -67,7 +67,7 @@ a {
 
 .list-inline a {
   font-size: 48px;
-  color: #235590;
+  color: #192240;
   margin: 4px;
 }
 
