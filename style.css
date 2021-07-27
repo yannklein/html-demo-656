@@ -1,0 +1,76 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&family=Satisfy&display=swap');
+
+/*Fonts & color*/
+
+body {
+  font-family: 'Roboto', sans-serif;
+  color: rgb(40,40,40);
+  background-color: #fcfbf7;
+}
+
+h1, h2 {
+  font-family: 'Satisfy', cursive;
+  color: #EC6651;
+}
+
+a {
+  text-decoration: none;
+}
+
+/*Customized style*/
+
+.container {
+  width: 600px;
+  margin: 0 auto;
+}
+
+.card-white {
+  background-color: rgb(250,250,250);
+  box-shadow: 0 0 24px rgb(0 0 0 / 20%);
+  padding: 24px;
+  margin: 32px;
+  border-radius: 4px;
+  text-align: center;
+}
+
+.img-circle {
+  border-radius: 50%;
+  box-shadow: 2px 4px 4px rgb(0 0 0 / 50%);
+  width: 120px;
+  height: 120px;
+  object-fit: cover;
+}
+
+.btn-blue {
+  background-color: #235590;
+  color: rgb(250,250,250);
+  transition: background-color 0.3s;
+  padding: 16px 32px;
+  border-radius: 4px;
+  display: inline-block;
+  margin: 16px;
+}
+
+.btn-blue:hover {
+  background-color: #E8A692;
+  color: rgb(40,40,40);
+}
+
+.list-inline {
+  list-style: none;
+  padding: 0;
+}
+
+.list-inline li {
+  display: inline;
+}
+
+.list-inline a {
+  font-size: 48px;
+  color: #235590;
+  margin: 4px;
+}
+
+
+
+
